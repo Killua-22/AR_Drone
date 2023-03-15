@@ -1,0 +1,54 @@
+{
+    "name": "movement",
+    "maps": [
+        {
+            "name": "drone",
+            "id": "52882d91-f8e1-46be-8086-1fa211fc218f",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "afd0d033-2f73-4237-b983-616c59bcb590",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ascend",
+                    "type": "Value",
+                    "id": "7a0ea788-d000-4d6a-ad06-a7863c47207c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9cf4f094-9d96-45b7-9f14-a10edafad60e",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3a8cb957-44fb-4336-91a4-e8b8eb58d274",
+                    "path": "<Gamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ascend",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
